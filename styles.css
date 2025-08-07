@@ -1,0 +1,165 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff9f7;
+  margin: 0;
+  padding: 0;
+  color: #4c4c4c;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-family: "Playfair Display", serif;
+  color: #d48aa1;
+  font-size: 1.2rem;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.8;
+}
+
+.intro h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #333;
+}
+
+.projects {
+  background: #fef5f3;
+  padding: 3rem 1rem;
+}
+
+.projects h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  color: #d48aa1;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.project-images img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.project-images.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.project-images.horizontal-scroll img {
+  flex: 0 0 auto;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  scroll-snap-align: start;
+}
+
+.pricing {
+  padding: 3rem 1rem;
+  background-color: #fff9f7;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  color: #d48aa1;
+  margin-bottom: 2rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  border-top: 8px solid #eec9d2;
+}
+
+.card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  color: #d48aa1;
+}
+
+.price {
+  font-size: 2rem;
+  color: #d48aa1;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #f0d5dc;
+}
+
+.contact {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.contact h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #d48aa1;
+  margin-bottom: 1rem;
+}
+
+.contact a {
+  color: #d48aa1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #fff0f5;
+  color: #aaa;
+  font-size: 0.9rem;
+  border-top: 1px solid #f0d5dc;
+}
